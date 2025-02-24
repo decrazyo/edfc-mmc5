@@ -1,0 +1,153 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2012 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 12.0 Build 178 05/31/2012 SJ Web Edition
+# Date created = 17:09:40  September 03, 2012
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		edfc-fpga_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C5T144C8
+set_global_assignment -name TOP_LEVEL_ENTITY main
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 12.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:09:40  SEPTEMBER 03, 2012"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE "ANY QFP"
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 144
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_location_assignment PIN_67 -to cpu_addr[0]
+set_location_assignment PIN_65 -to cpu_addr[1]
+set_location_assignment PIN_64 -to cpu_addr[2]
+set_location_assignment PIN_63 -to cpu_addr[3]
+set_location_assignment PIN_60 -to cpu_addr[4]
+set_location_assignment PIN_48 -to cpu_addr[5]
+set_location_assignment PIN_47 -to cpu_addr[6]
+set_location_assignment PIN_45 -to cpu_addr[7]
+set_location_assignment PIN_44 -to cpu_addr[8]
+set_location_assignment PIN_43 -to cpu_addr[9]
+set_location_assignment PIN_26 -to cpu_addr[10]
+set_location_assignment PIN_25 -to cpu_addr[11]
+set_location_assignment PIN_28 -to cpu_addr[12]
+set_location_assignment PIN_24 -to cpu_addr[13]
+set_location_assignment PIN_30 -to cpu_addr[14]
+set_location_assignment PIN_88 -to cpu_ce
+set_location_assignment PIN_118 -to chr_ce
+set_location_assignment PIN_134 -to chr_oe
+set_location_assignment PIN_125 -to chr_we
+set_location_assignment PIN_100 -to ppu_ciram_a10
+set_location_assignment PIN_99 -to ppu_ciram_ce
+set_location_assignment PIN_119 -to ppu_dat[0]
+set_location_assignment PIN_120 -to ppu_dat[1]
+set_location_assignment PIN_121 -to ppu_dat[2]
+set_location_assignment PIN_122 -to ppu_dat[3]
+set_location_assignment PIN_139 -to ppu_dat[4]
+set_location_assignment PIN_137 -to ppu_dat[5]
+set_location_assignment PIN_136 -to ppu_dat[6]
+set_location_assignment PIN_135 -to ppu_dat[7]
+set_location_assignment PIN_58 -to prg_map[0]
+set_location_assignment PIN_59 -to prg_map[1]
+set_location_assignment PIN_57 -to prg_map[2]
+set_location_assignment PIN_55 -to prg_map[3]
+set_location_assignment PIN_53 -to prg_map[4]
+set_location_assignment PIN_73 -to prg_map[5]
+set_location_assignment PIN_74 -to prg_map[6]
+set_location_assignment PIN_75 -to prg_map[7]
+set_location_assignment PIN_76 -to prg_map[8]
+set_location_assignment PIN_7 -to ppu_dir
+set_location_assignment PIN_8 -to ppu_ex
+set_location_assignment PIN_52 -to prg_ce
+set_location_assignment PIN_79 -to prg_oe
+set_location_assignment PIN_51 -to prg_we
+set_location_assignment PIN_32 -to ram_ce
+set_location_assignment PIN_42 -to ram_oe
+set_location_assignment PIN_31 -to ram_we
+set_location_assignment PIN_94 -to cpu_rw
+set_location_assignment PIN_97 -to cpu_exp
+set_location_assignment PIN_96 -to cpu_irq
+set_location_assignment PIN_27 -to cpu_m2
+set_location_assignment PIN_40 -to max0
+set_location_assignment PIN_41 -to max1
+set_location_assignment PIN_18 -to max2
+set_location_assignment PIN_115 -to ppu_addr[0]
+set_location_assignment PIN_114 -to ppu_addr[1]
+set_location_assignment PIN_113 -to ppu_addr[2]
+set_location_assignment PIN_112 -to ppu_addr[3]
+set_location_assignment PIN_93 -to ppu_addr[4]
+set_location_assignment PIN_91 -to ppu_addr[5]
+set_location_assignment PIN_9 -to ppu_addr[6]
+set_location_assignment PIN_92 -to ppu_addr[7]
+set_location_assignment PIN_4 -to ppu_addr[8]
+set_location_assignment PIN_104 -to ppu_addr[9]
+set_location_assignment PIN_101 -to ppu_addr[10]
+set_location_assignment PIN_103 -to ppu_addr[11]
+set_location_assignment PIN_2 -to ppu_addr[12]
+set_location_assignment PIN_3 -to ppu_addr[13]
+set_location_assignment PIN_89 -to ppu_rd
+set_location_assignment PIN_90 -to ppu_wr
+set_location_assignment PIN_87 -to cpu_dat[0]
+set_location_assignment PIN_86 -to cpu_dat[1]
+set_location_assignment PIN_81 -to cpu_dat[2]
+set_location_assignment PIN_80 -to cpu_dat[3]
+set_location_assignment PIN_72 -to cpu_dat[4]
+set_location_assignment PIN_71 -to cpu_dat[5]
+set_location_assignment PIN_70 -to cpu_dat[6]
+set_location_assignment PIN_69 -to cpu_dat[7]
+set_location_assignment PIN_17 -to clk
+set_location_assignment PIN_1 -to chr_map[0]
+set_location_assignment PIN_144 -to chr_map[1]
+set_location_assignment PIN_143 -to chr_map[2]
+set_location_assignment PIN_142 -to chr_map[3]
+set_location_assignment PIN_141 -to chr_map[4]
+set_location_assignment PIN_133 -to chr_map[5]
+set_location_assignment PIN_132 -to chr_map[6]
+set_location_assignment PIN_129 -to chr_map[7]
+set_location_assignment PIN_126 -to chr_map[8]
+set_global_assignment -name CYCLONEII_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name GENERATE_RBF_FILE ON
+set_location_assignment PIN_21 -to mclk
+set_global_assignment -name VERILOG_FILE map_255.v
+set_global_assignment -name VERILOG_FILE main.v
+set_global_assignment -name VERILOG_FILE map_5.v
+set_global_assignment -name QIP_FILE exram.qip
+set_global_assignment -name VERILOG_FILE mmc5_snd.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

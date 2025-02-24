@@ -1,0 +1,125 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'mclk'
+Slack : -7.132
+TNS   : -2722.370
+
+Type  : Slow Model Setup 'clk'
+Slack : -5.241
+TNS   : -242.502
+
+Type  : Slow Model Setup 'ppu_rd'
+Slack : -3.551
+TNS   : -31.977
+
+Type  : Slow Model Setup 'mmc5_snd:snd_inst|pulse:pulse_1|freq_clk'
+Slack : -1.311
+TNS   : -2.994
+
+Type  : Slow Model Setup 'mmc5_snd:snd_inst|pulse:pulse_2|freq_clk'
+Slack : -0.975
+TNS   : -1.418
+
+Type  : Slow Model Hold 'mclk'
+Slack : -2.558
+TNS   : -5.084
+
+Type  : Slow Model Hold 'clk'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'mmc5_snd:snd_inst|pulse:pulse_1|freq_clk'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'mmc5_snd:snd_inst|pulse:pulse_2|freq_clk'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'ppu_rd'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : -2.567
+TNS   : -274.201
+
+Type  : Slow Model Minimum Pulse Width 'mclk'
+Slack : -2.269
+TNS   : -884.813
+
+Type  : Slow Model Minimum Pulse Width 'ppu_rd'
+Slack : -1.941
+TNS   : -40.525
+
+Type  : Slow Model Minimum Pulse Width 'mmc5_snd:snd_inst|pulse:pulse_1|freq_clk'
+Slack : -0.742
+TNS   : -4.452
+
+Type  : Slow Model Minimum Pulse Width 'mmc5_snd:snd_inst|pulse:pulse_2|freq_clk'
+Slack : -0.742
+TNS   : -4.452
+
+Type  : Fast Model Setup 'mclk'
+Slack : -1.795
+TNS   : -586.910
+
+Type  : Fast Model Setup 'clk'
+Slack : -1.460
+TNS   : -47.943
+
+Type  : Fast Model Setup 'ppu_rd'
+Slack : -0.476
+TNS   : -3.434
+
+Type  : Fast Model Setup 'mmc5_snd:snd_inst|pulse:pulse_1|freq_clk'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast Model Setup 'mmc5_snd:snd_inst|pulse:pulse_2|freq_clk'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Fast Model Hold 'mclk'
+Slack : -1.360
+TNS   : -2.693
+
+Type  : Fast Model Hold 'clk'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast Model Hold 'mmc5_snd:snd_inst|pulse:pulse_1|freq_clk'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'mmc5_snd:snd_inst|pulse:pulse_2|freq_clk'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'ppu_rd'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : -2.000
+TNS   : -205.380
+
+Type  : Fast Model Minimum Pulse Width 'mclk'
+Slack : -1.519
+TNS   : -595.988
+
+Type  : Fast Model Minimum Pulse Width 'ppu_rd'
+Slack : -1.380
+TNS   : -27.380
+
+Type  : Fast Model Minimum Pulse Width 'mmc5_snd:snd_inst|pulse:pulse_1|freq_clk'
+Slack : -0.500
+TNS   : -3.000
+
+Type  : Fast Model Minimum Pulse Width 'mmc5_snd:snd_inst|pulse:pulse_2|freq_clk'
+Slack : -0.500
+TNS   : -3.000
+
+------------------------------------------------------------
