@@ -99,7 +99,7 @@ clk, map_cfg, rst, mmc_cpu_do, mmc_cpu_out, mmc_ppu_do, mmc_ppu_out);
 	
 //***************************************************************** prg stuff	
 	assign prg_addr[12:0] = cpu_addr[12:0];
-	assign prg_addr[18:13] = cpu_ce ? {3'b000, ram_bank[2:0]} : prg_bk[5:0];
+	assign prg_addr[19:13] = cpu_ce ? {2'b00, ram_bank[3:0]} : prg_bk[5:0];
 	
 	wire ram_mank_ce;// = prg_bak_idx != 3 & prg_bank[prg_bak_idx][7] == 0 & !cpu_ce;
 	
@@ -128,7 +128,7 @@ clk, map_cfg, rst, mmc_cpu_do, mmc_cpu_out, mmc_ppu_do, mmc_ppu_out);
 	
 	reg [1:0]prg_mode;
 	reg [7:0]prg_bank[4];
-	reg [2:0]ram_bank;
+	reg [3:0]ram_bank;
 	reg [7:0]ntb_map;
 	reg [7:0]tile_idx;
 	reg [1:0]tile_at;
@@ -183,7 +183,7 @@ clk, map_cfg, rst, mmc_cpu_do, mmc_cpu_out, mmc_ppu_do, mmc_ppu_out);
 			8'h05:ntb_map[7:0] <= cpu_dat[7:0];
 			8'h06:tile_idx[7:0] <= cpu_dat[7:0];
 			8'h07:tile_at[1:0] <= cpu_dat[1:0];
-			8'h13:ram_bank[2:0] <= cpu_dat[2:0];
+			8'h13:ram_bank[3:0] <= cpu_dat[3:0];
 			8'h30:chr_hi[1:0] <= cpu_dat[1:0];
 		endcase
 		
